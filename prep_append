@@ -1,0 +1,10 @@
+python3 /usr/share/java-utils/pom_editor.py pom_xpath_inject   pom:project/pom:dependencies "
+
+<dependency>
+  <groupId>org.apache.maven</groupId>
+  <artifactId>maven-compat</artifactId>
+  <version>1.0</version>
+</dependency>" pom.xml
+
+# Incompatible method invocation
+rm src/test/java/org/apache/maven/shared/artifact/resolver/DefaultProjectDependenciesResolverIT.java
