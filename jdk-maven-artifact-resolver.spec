@@ -4,7 +4,7 @@
 #
 Name     : jdk-maven-artifact-resolver
 Version  : 1.0
-Release  : 3
+Release  : 4
 URL      : http://central.maven.org/maven2/org/apache/maven/shared/maven-artifact-resolver/1.0/maven-artifact-resolver-1.0-source-release.zip
 Source0  : http://central.maven.org/maven2/org/apache/maven/shared/maven-artifact-resolver/1.0/maven-artifact-resolver-1.0-source-release.zip
 Summary  : No detailed summary available
@@ -29,6 +29,7 @@ BuildRequires : jdk-commons-io
 BuildRequires : jdk-commons-lang
 BuildRequires : jdk-commons-lang3
 BuildRequires : jdk-commons-logging
+BuildRequires : jdk-commons-parent
 BuildRequires : jdk-doxia
 BuildRequires : jdk-doxia-sitetools
 BuildRequires : jdk-easymock3
